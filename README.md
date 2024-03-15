@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,59 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+<!-- 
+# Unzipper
+
+Unzipper is a simple React application that allows you to extract files from a zip archive and save them to a selected destination directory. It utilizes the JSZip library for handling zip files.
+
+## Setup
+
+1. Clone the repository to your local machine: -->
+
+<!-- `git clone https://github.com/your-username/unzipper.git` -->
+
+
+
+# Unzipper
+
+Unzipper is a simple React application that allows you to extract files from a zip archive and save them to a selected destination directory. It utilizes the JSZip library for handling zip files.
+
+## Features
+
+- Select a zip file and extract its contents.
+- Choose a destination directory to save the extracted files.
+- Pause and resume the extraction process.
+- Copy or rename extracted files.
+
+## Installation
+
+1. Clone the repository to your local machine: `git clone https://github.com/your-username/unzipper.git`
+
+2. Navigate to the project directory: `cd unzipper`
+
+3. Install dependencies using npm: `npm install`
+
+## Usage
+
+1. Start the development server: `npm start`
+
+2. Open your web browser and go to `http://localhost:3000`.
+
+3. Select a zip file by clicking on the "Choose File" button.
+
+4. Choose a destination directory by clicking on the "Select Destination" button. This will open a file picker dialog where you can choose a directory.
+
+5. Click on the "Start" button to begin extracting files from the zip archive.
+
+6. If you want to pause the extraction process, click on the "Pause" button. You can resume the process later by clicking on the "Resume" button.
+
+7. Once the extraction is complete, the status will change to "Completed" for each file.
+
+8. You can copy or rename files by clicking on the corresponding buttons in the file list.
+
+## Dependencies
+
+- React: A JavaScript library for building user interfaces.
+- JSZip: A JavaScript library for creating, reading, and editing zip files.

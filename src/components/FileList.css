@@ -1,0 +1,68 @@
+.file-list {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.file-list th,
+.file-list td {
+  padding: 8px;
+  border-right: 1px solid #ddd;
+  text-align: left;
+}
+
+.file-list th:last-child,
+.file-list td:last-child {
+  border-right: none;
+}
+
+.file-list thead {
+  border-bottom: 1px solid #ddd;
+}
+
+.file-list button {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.file-list button.copy {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.file-list button.copy:hover {
+  background-color: #0056b3;
+}
+
+.file-list button.rename {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.file-list button.rename:hover {
+  background-color: #218838;
+}
+
+.file-list button.delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.file-list button.delete:hover {
+  background-color: #c82333;
+}
+
+.file-list .file-status.pending {
+  color: #ffc107;
+}
+
+.file-list .file-status.processing {
+  color: #007bff;
+}
+
+.file-list .file-status.completed {
+  color: #28a745;
+}
